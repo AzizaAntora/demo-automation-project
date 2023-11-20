@@ -13,8 +13,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class CommonDataSetup {
 	
-	protected WebDriver driver = WebDriverSingletone.getInstance();
-	protected ConfigFileReader configFileReader;
+	 protected WebDriver driver = WebDriverSingletone.getInstance();
+	 protected ConfigFileReader configFileReader;
 	
 	@BeforeSuite
 	public void dataSetup() 

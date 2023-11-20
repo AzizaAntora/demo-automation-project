@@ -1,0 +1,275 @@
+<html>
+<head>
+<title>TestNG:  Functional Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Functional Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>15/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Nov 21 02:31:34 BDT 2023</td>
+</tr>
+<tr><td>Total time:</td><td>16 seconds (16692 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='ui.SignupTest.clickRegisterLoginButtonTest()'><b>clickRegisterLoginButtonTest</b><br>Test class: ui.SignupTest<br>Test method: Click 'Register / Login' button<br/>
+<a href="#Output-1940737740" onClick='toggleBox("Output-1940737740", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1940737740" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1940737740">
+onTestStart: Method name is - clickRegisterLoginButtonTest<br/>
+onTestSuccess: Status of execution is - 1<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ui.SignupTest@151335cb</td></tr>
+<tr>
+<td title='ui.SignupTest.clickCartAndProceedToCheckoutButtonTest()'><b>clickCartAndProceedToCheckoutButtonTest</b><br>Test class: ui.SignupTest<br>Test method: Click 'Cart' button and 'Proceed To Checkout' button<br/>
+<a href="#Output-1805845895" onClick='toggleBox("Output-1805845895", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1805845895" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1805845895">
+onTestStart: Method name is - clickCartAndProceedToCheckoutButtonTest<br/>
+onTestSuccess: Status of execution is - 1<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>ui.SignupTest@151335cb</td></tr>
+<tr>
+<td title='ui.AddToCartTest.clickCartButtonTest()'><b>clickCartButtonTest</b><br>Test class: ui.AddToCartTest<br>Test method: Click 'Cart' button<br/>
+<a href="#Output-1263841085" onClick='toggleBox("Output-1263841085", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1263841085" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1263841085">
+onTestStart: Method name is - clickCartButtonTest<br/>
+onTestSuccess: Status of execution is - 1<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ui.AddToCartTest@765df79d</td></tr>
+<tr>
+<td title='ui.CheckoutTest.verifyOrderPlacedTest()'><b>verifyOrderPlacedTest</b><br>Test class: ui.CheckoutTest<br>Test method: Verify 'Verify the success message 'Your order has been placed successfully!'<br/>
+<a href="#Output-388623360" onClick='toggleBox("Output-388623360", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-388623360" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-388623360">
+onTestStart: Method name is - verifyOrderPlacedTest<br/>
+onTestSuccess: Status of execution is - 1<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>ui.CheckoutTest@4a7761b1</td></tr>
+<tr>
+<td title='ui.SignupTest.verifyAccountCreatedTest()'><b>verifyAccountCreatedTest</b><br>Test class: ui.SignupTest<br>Test method: Verify 'ACCOUNT CREATED!' and click 'Continue' button<br/>
+<a href="#Output-1671084561" onClick='toggleBox("Output-1671084561", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1671084561" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1671084561">
+onTestStart: Method name is - verifyAccountCreatedTest<br/>
+onTestSuccess: Status of execution is - 1<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>ui.SignupTest@151335cb</td></tr>
+<tr>
+<td title='ui.CheckoutTest.placeOrderTest()'><b>placeOrderTest</b><br>Test class: ui.CheckoutTest<br>Test method:  Enter description in comment text area and click 'Place Order'<br/>
+<a href="#Output-1338065644" onClick='toggleBox("Output-1338065644", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1338065644" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1338065644">
+onTestStart: Method name is - placeOrderTest<br/>
+onTestSuccess: Status of execution is - 1<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ui.CheckoutTest@4a7761b1</td></tr>
+<tr>
+<td title='ui.CheckoutTest.signUpTest()'><b>signUpTest</b><br>Test class: ui.CheckoutTest<br>Test method: Enter payment details: Name on Card, Card Number, CVC, Expiration date<br>Parameters: Test User, 0000000000000000, 1234, 01, 2026<br/>
+<a href="#Output-1753107603" onClick='toggleBox("Output-1753107603", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1753107603" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1753107603">
+onTestStart: Method name is - signUpTest<br/>
+onTestSuccess: Status of execution is - 1<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>ui.CheckoutTest@4a7761b1</td></tr>
+<tr>
+<td title='ui.CheckoutTest.verifyAddressReviewOrderTest()'><b>verifyAddressReviewOrderTest</b><br>Test class: ui.CheckoutTest<br>Test method: Verify Address Details and Review Your Order<br/>
+<a href="#Output-1446238973" onClick='toggleBox("Output-1446238973", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1446238973" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1446238973">
+onTestStart: Method name is - verifyAddressReviewOrderTest<br/>
+onTestSuccess: Status of execution is - 1<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ui.CheckoutTest@4a7761b1</td></tr>
+<tr>
+<td title='ui.SignupTest.signUpTest()'><b>signUpTest</b><br>Test class: ui.SignupTest<br>Test method: Fill all details in Sign up and create account<br>Parameters: Test, User, testuserdbcdc_1700512296@gmail.com<br/>
+<a href="#Output-184642382" onClick='toggleBox("Output-184642382", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-184642382" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-184642382">
+onTestStart: Method name is - signUpTest<br/>
+onTestSuccess: Status of execution is - 1<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ui.SignupTest@151335cb</td></tr>
+<tr>
+<td title='ui.HomePageTest.verifyHomepageTest()'><b>verifyHomepageTest</b><br>Test class: ui.HomePageTest<br>Test method: Verify that home page is visible successfully<br/>
+<a href="#Output-630122462" onClick='toggleBox("Output-630122462", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-630122462" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-630122462">
+onTestStart: Method name is - verifyHomepageTest<br/>
+onTestSuccess: Status of execution is - 1<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ui.HomePageTest@24097e9b</td></tr>
+<tr>
+<td title='ui.AddToCartTest.addProductsToCartTest()'><b>addProductsToCartTest</b><br>Test class: ui.AddToCartTest<br>Test method: Add products to cart<br/>
+<a href="#Output-1677590477" onClick='toggleBox("Output-1677590477", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1677590477" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1677590477">
+onTestStart: Method name is - addProductsToCartTest<br/>
+onTestSuccess: Status of execution is - 1<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ui.AddToCartTest@765df79d</td></tr>
+<tr>
+<td title='ui.AddToCartTest.clickProceedToCheckoutTest()'><b>clickProceedToCheckoutTest</b><br>Test class: ui.AddToCartTest<br>Test method: Click Proceed To Checkout<br/>
+<a href="#Output-1005245720" onClick='toggleBox("Output-1005245720", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1005245720" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1005245720">
+onTestStart: Method name is - clickProceedToCheckoutTest<br/>
+onTestSuccess: Status of execution is - 1<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ui.AddToCartTest@765df79d</td></tr>
+<tr>
+<td title='ui.AddToCartTest.verifyCartPageTest()'><b>verifyCartPageTest</b><br>Test class: ui.AddToCartTest<br>Test method: Verify that cart page is displayed<br/>
+<a href="#Output-2075352262" onClick='toggleBox("Output-2075352262", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2075352262" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2075352262">
+onTestStart: Method name is - verifyCartPageTest<br/>
+onTestSuccess: Status of execution is - 1<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ui.AddToCartTest@765df79d</td></tr>
+<tr>
+<td title='ui.SignupTest.verifyLoggedInUserTest()'><b>verifyLoggedInUserTest</b><br>Test class: ui.SignupTest<br>Test method: Verify ' Logged in as username' at top<br>Parameters: Test, User, testuser4aaf4_1700512303@gmail.com<br/>
+<a href="#Output-27818833" onClick='toggleBox("Output-27818833", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-27818833" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-27818833">
+onTestStart: Method name is - verifyLoggedInUserTest<br/>
+onTestSuccess: Status of execution is - 1<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ui.SignupTest@151335cb</td></tr>
+<tr>
+<td title='ui.SignupTest.fillUpAccountInformationTest()'><b>fillUpAccountInformationTest</b><br>Test class: ui.SignupTest<br>Test method: Fill all account information<br>Parameters: abcd1234, 3, 11, 1990, Test, User, Google, Toronto, Road 11, Canada, Toronto, New City, 1200, 02135489<br/>
+<a href="#Output-1555413896" onClick='toggleBox("Output-1555413896", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1555413896" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1555413896">
+onTestStart: Method name is - fillUpAccountInformationTest<br/>
+onTestSuccess: Status of execution is - 1<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>ui.SignupTest@151335cb</td></tr>
+</table><p>
+</body>
+</html>
