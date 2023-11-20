@@ -13,21 +13,13 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class CommonDataSetup {
 	
-	protected WebDriver driver;
+	protected WebDriver driver = WebDriverSingletone.getInstance();
 	protected ConfigFileReader configFileReader;
 	
 	@BeforeSuite
 	public void dataSetup() 
 	{
 		System.out.println("Initiating Test Suit");
-		configFileReader= new ConfigFileReader();
-		String url = configFileReader.getApplicationUrl();
-		
-		WebDriverManager.chromedriver().setup();
-		driver = new ChromeDriver();
-		driver.get(url);
-		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(configFileReader.getImplicitlyWait(), TimeUnit.SECONDS);
 	}
 	
 

@@ -7,6 +7,9 @@
 	  </listeners>
     <classes>
       <class name="ui.HomePageTest"/>
+      <class name="ui.AddToCartTest"/>
+      <class name="ui.SignupTest"/>
+      <class name="ui.CheckoutTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

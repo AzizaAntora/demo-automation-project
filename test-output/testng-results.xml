@@ -1,167 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
+<testng-results ignored="8" total="23" passed="15" failed="0" skipped="0">
   <reporter-output>
-    <line>
-      <![CDATA[onTestStart: Method name is - verifyHomepageTest]]>
-    </line>
-    <line>
-      <![CDATA[onTestSuccess: Status of execution is - 1]]>
-    </line>
-    <line>
-      <![CDATA[onTestStart: Method name is - addProductsToCartTest]]>
-    </line>
-    <line>
-      <![CDATA[onTestSuccess: Status of execution is - 1]]>
-    </line>
-    <line>
-      <![CDATA[onTestStart: Method name is - clickCartButtonTest]]>
-    </line>
-    <line>
-      <![CDATA[onTestSuccess: Status of execution is - 1]]>
-    </line>
-    <line>
-      <![CDATA[onTestStart: Method name is - verifyCartPageTest]]>
-    </line>
-    <line>
-      <![CDATA[onTestSuccess: Status of execution is - 1]]>
-    </line>
-    <line>
-      <![CDATA[onTestStart: Method name is - clickProceedToCheckoutTest]]>
-    </line>
-    <line>
-      <![CDATA[onTestSuccess: Status of execution is - 1]]>
-    </line>
-    <line>
-      <![CDATA[onTestStart: Method name is - clickRegisterLoginButtonTest]]>
-    </line>
-    <line>
-      <![CDATA[onTestSuccess: Status of execution is - 1]]>
-    </line>
-    <line>
-      <![CDATA[onTestStart: Method name is - signUpTest]]>
-    </line>
-    <line>
-      <![CDATA[onTestSuccess: Status of execution is - 1]]>
-    </line>
-    <line>
-      <![CDATA[onTestStart: Method name is - fillUpAccountInformationTest]]>
-    </line>
-    <line>
-      <![CDATA[onTestSuccess: Status of execution is - 1]]>
-    </line>
-    <line>
-      <![CDATA[onTestStart: Method name is - verifyAccountCreatedTest]]>
-    </line>
-    <line>
-      <![CDATA[onTestSuccess: Status of execution is - 1]]>
-    </line>
-    <line>
-      <![CDATA[onTestStart: Method name is - verifyLoggedInUserTest]]>
-    </line>
-    <line>
-      <![CDATA[onTestSuccess: Status of execution is - 1]]>
-    </line>
-    <line>
-      <![CDATA[onTestStart: Method name is - clickCartAndProceedToCheckoutButtonTest]]>
-    </line>
-    <line>
-      <![CDATA[onTestSuccess: Status of execution is - 1]]>
-    </line>
-    <line>
-      <![CDATA[onTestStart: Method name is - verifyAddressReviewOrderTest]]>
-    </line>
-    <line>
-      <![CDATA[onTestSuccess: Status of execution is - 1]]>
-    </line>
-    <line>
-      <![CDATA[onTestStart: Method name is - placeOrderTest]]>
-    </line>
-    <line>
-      <![CDATA[onTestSuccess: Status of execution is - 1]]>
-    </line>
-    <line>
-      <![CDATA[onTestStart: Method name is - signUpTest]]>
-    </line>
-    <line>
-      <![CDATA[onTestSuccess: Status of execution is - 1]]>
-    </line>
-    <line>
-      <![CDATA[onTestStart: Method name is - verifyOrderPlacedTest]]>
-    </line>
-    <line>
-      <![CDATA[onTestSuccess: Status of execution is - 1]]>
-    </line>
   </reporter-output>
-  <suite started-at="2023-11-21T00:51:14 BDT" name="AutomationExcerciseSuite" finished-at="2023-11-21T00:51:31 BDT" duration-ms="16853">
+  <suite started-at="2023-11-21T02:06:27 BDT" name="Default suite" finished-at="2023-11-21T02:06:47 BDT" duration-ms="20505">
     <groups>
+      <group name="regression">
+        <method signature="HomePageTest.verifyHomepageTest()[pri:1, instance:ui.HomePageTest@a64e035]" name="verifyHomepageTest" class="ui.HomePageTest"/>
+        <method signature="AddToCartTest.addProductsToCartTest()[pri:2, instance:ui.AddToCartTest@476ec9d0]" name="addProductsToCartTest" class="ui.AddToCartTest"/>
+        <method signature="AddToCartTest.clickCartButtonTest()[pri:3, instance:ui.AddToCartTest@476ec9d0]" name="clickCartButtonTest" class="ui.AddToCartTest"/>
+        <method signature="AddToCartTest.verifyCartPageTest()[pri:4, instance:ui.AddToCartTest@476ec9d0]" name="verifyCartPageTest" class="ui.AddToCartTest"/>
+        <method signature="AddToCartTest.clickProceedToCheckoutTest()[pri:5, instance:ui.AddToCartTest@476ec9d0]" name="clickProceedToCheckoutTest" class="ui.AddToCartTest"/>
+        <method signature="SignupTest.clickRegisterLoginButtonTest()[pri:6, instance:ui.SignupTest@f8f56b9]" name="clickRegisterLoginButtonTest" class="ui.SignupTest"/>
+        <method signature="SignupTest.signUpTest(java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:ui.SignupTest@f8f56b9]" name="signUpTest" class="ui.SignupTest"/>
+        <method signature="SignupTest.fillUpAccountInformationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:8, instance:ui.SignupTest@f8f56b9]" name="fillUpAccountInformationTest" class="ui.SignupTest"/>
+        <method signature="SignupTest.verifyAccountCreatedTest()[pri:9, instance:ui.SignupTest@f8f56b9]" name="verifyAccountCreatedTest" class="ui.SignupTest"/>
+        <method signature="SignupTest.verifyLoggedInUserTest(java.lang.String,java.lang.String,java.lang.String)[pri:10, instance:ui.SignupTest@f8f56b9]" name="verifyLoggedInUserTest" class="ui.SignupTest"/>
+        <method signature="SignupTest.clickCartAndProceedToCheckoutButtonTest()[pri:11, instance:ui.SignupTest@f8f56b9]" name="clickCartAndProceedToCheckoutButtonTest" class="ui.SignupTest"/>
+        <method signature="CheckoutTest.verifyAddressReviewOrderTest()[pri:12, instance:ui.CheckoutTest@15fa55a6]" name="verifyAddressReviewOrderTest" class="ui.CheckoutTest"/>
+        <method signature="CheckoutTest.placeOrderTest()[pri:13, instance:ui.CheckoutTest@15fa55a6]" name="placeOrderTest" class="ui.CheckoutTest"/>
+        <method signature="CheckoutTest.signUpTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:14, instance:ui.CheckoutTest@15fa55a6]" name="signUpTest" class="ui.CheckoutTest"/>
+        <method signature="CheckoutTest.verifyOrderPlacedTest()[pri:15, instance:ui.CheckoutTest@15fa55a6]" name="verifyOrderPlacedTest" class="ui.CheckoutTest"/>
+      </group> <!-- regression -->
     </groups>
-    <test started-at="2023-11-21T00:51:14 BDT" name="Functional Test" finished-at="2023-11-21T00:51:31 BDT" duration-ms="16853">
-      <class name="ui.HomePageTest">
-        <test-method is-config="true" signature="dataSetup()[pri:0, instance:ui.HomePageTest@46cdf8bd]" started-at="2023-11-21T00:51:05 BDT" name="dataSetup" finished-at="2023-11-21T00:51:14 BDT" duration-ms="8918" status="PASS">
+    <test started-at="2023-11-21T02:06:27 BDT" name="Default test" finished-at="2023-11-21T02:06:47 BDT" duration-ms="20505">
+      <class name="ui.AddToCartTest">
+        <test-method is-config="true" signature="dataSetup()[pri:0, instance:ui.AddToCartTest@476ec9d0]" started-at="2023-11-21T02:06:27 BDT" name="dataSetup" finished-at="2023-11-21T02:06:27 BDT" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dataSetup -->
-        <test-method signature="verifyHomepageTest()[pri:1, instance:ui.HomePageTest@46cdf8bd]" started-at="2023-11-21T00:51:14 BDT" name="verifyHomepageTest" description="Verify that home page is visible successfully" finished-at="2023-11-21T00:51:14 BDT" duration-ms="15" status="PASS">
+        <test-method signature="addProductsToCartTest()[pri:2, instance:ui.AddToCartTest@476ec9d0]" started-at="2023-11-21T02:06:27 BDT" name="addProductsToCartTest" description="Add products to cart" finished-at="2023-11-21T02:06:28 BDT" duration-ms="817" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[onTestStart: Method name is - verifyHomepageTest]]>
-            </line>
-            <line>
-              <![CDATA[onTestSuccess: Status of execution is - 1]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- verifyHomepageTest -->
-        <test-method signature="addProductsToCartTest()[pri:2, instance:ui.HomePageTest@46cdf8bd]" started-at="2023-11-21T00:51:14 BDT" name="addProductsToCartTest" description="Add products to cart" finished-at="2023-11-21T00:51:15 BDT" duration-ms="767" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[onTestStart: Method name is - addProductsToCartTest]]>
-            </line>
-            <line>
-              <![CDATA[onTestSuccess: Status of execution is - 1]]>
-            </line>
           </reporter-output>
         </test-method> <!-- addProductsToCartTest -->
-        <test-method signature="clickCartButtonTest()[pri:3, instance:ui.HomePageTest@46cdf8bd]" started-at="2023-11-21T00:51:15 BDT" name="clickCartButtonTest" description="Click &#039;Cart&#039; button" finished-at="2023-11-21T00:51:16 BDT" duration-ms="1163" status="PASS">
+        <test-method signature="clickCartButtonTest()[pri:3, instance:ui.AddToCartTest@476ec9d0]" started-at="2023-11-21T02:06:28 BDT" name="clickCartButtonTest" description="Click &#039;Cart&#039; button" finished-at="2023-11-21T02:06:28 BDT" duration-ms="719" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[onTestStart: Method name is - clickCartButtonTest]]>
-            </line>
-            <line>
-              <![CDATA[onTestSuccess: Status of execution is - 1]]>
-            </line>
           </reporter-output>
         </test-method> <!-- clickCartButtonTest -->
-        <test-method signature="verifyCartPageTest()[pri:4, instance:ui.HomePageTest@46cdf8bd]" started-at="2023-11-21T00:51:16 BDT" name="verifyCartPageTest" description="Verify that cart page is displayed" finished-at="2023-11-21T00:51:16 BDT" duration-ms="8" status="PASS">
+        <test-method signature="verifyCartPageTest()[pri:4, instance:ui.AddToCartTest@476ec9d0]" started-at="2023-11-21T02:06:28 BDT" name="verifyCartPageTest" description="Verify that cart page is displayed" finished-at="2023-11-21T02:06:28 BDT" duration-ms="8" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[onTestStart: Method name is - verifyCartPageTest]]>
-            </line>
-            <line>
-              <![CDATA[onTestSuccess: Status of execution is - 1]]>
-            </line>
           </reporter-output>
         </test-method> <!-- verifyCartPageTest -->
-        <test-method signature="clickProceedToCheckoutTest()[pri:5, instance:ui.HomePageTest@46cdf8bd]" started-at="2023-11-21T00:51:16 BDT" name="clickProceedToCheckoutTest" description="Click Proceed To Checkout" finished-at="2023-11-21T00:51:16 BDT" duration-ms="44" status="PASS">
+        <test-method signature="clickProceedToCheckoutTest()[pri:5, instance:ui.AddToCartTest@476ec9d0]" started-at="2023-11-21T02:06:28 BDT" name="clickProceedToCheckoutTest" description="Click Proceed To Checkout" finished-at="2023-11-21T02:06:29 BDT" duration-ms="46" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[onTestStart: Method name is - clickProceedToCheckoutTest]]>
-            </line>
-            <line>
-              <![CDATA[onTestSuccess: Status of execution is - 1]]>
-            </line>
           </reporter-output>
         </test-method> <!-- clickProceedToCheckoutTest -->
-        <test-method signature="clickRegisterLoginButtonTest()[pri:6, instance:ui.HomePageTest@46cdf8bd]" started-at="2023-11-21T00:51:16 BDT" name="clickRegisterLoginButtonTest" description="Click &#039;Register / Login&#039; button" finished-at="2023-11-21T00:51:17 BDT" duration-ms="691" status="PASS">
+        <test-method is-config="true" signature="dataTeardown()[pri:0, instance:ui.AddToCartTest@476ec9d0]" started-at="2023-11-21T02:06:47 BDT" name="dataTeardown" finished-at="2023-11-21T02:06:48 BDT" duration-ms="158" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[onTestStart: Method name is - clickRegisterLoginButtonTest]]>
-            </line>
-            <line>
-              <![CDATA[onTestSuccess: Status of execution is - 1]]>
-            </line>
+          </reporter-output>
+        </test-method> <!-- dataTeardown -->
+      </class> <!-- ui.AddToCartTest -->
+      <class name="ui.SignupTest">
+        <test-method signature="clickRegisterLoginButtonTest()[pri:6, instance:ui.SignupTest@f8f56b9]" started-at="2023-11-21T02:06:29 BDT" name="clickRegisterLoginButtonTest" description="Click &#039;Register / Login&#039; button" finished-at="2023-11-21T02:06:29 BDT" duration-ms="653" status="PASS">
+          <reporter-output>
           </reporter-output>
         </test-method> <!-- clickRegisterLoginButtonTest -->
-        <test-method signature="signUpTest(java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:ui.HomePageTest@46cdf8bd]" started-at="2023-11-21T00:51:17 BDT" name="signUpTest" description="Fill all details in Sign up and create account" data-provider="signup" finished-at="2023-11-21T00:51:18 BDT" duration-ms="940" status="PASS">
+        <test-method signature="signUpTest(java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:ui.SignupTest@f8f56b9]" started-at="2023-11-21T02:06:29 BDT" name="signUpTest" description="Fill all details in Sign up and create account" data-provider="signup" finished-at="2023-11-21T02:06:30 BDT" duration-ms="944" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -175,20 +68,14 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[testuserf875c_1700506277@gmail.com]]>
+                <![CDATA[testuserd83fd_1700510789@gmail.com]]>
               </value>
             </param>
           </params>
           <reporter-output>
-            <line>
-              <![CDATA[onTestStart: Method name is - signUpTest]]>
-            </line>
-            <line>
-              <![CDATA[onTestSuccess: Status of execution is - 1]]>
-            </line>
           </reporter-output>
         </test-method> <!-- signUpTest -->
-        <test-method signature="fillUpAccountInformationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:8, instance:ui.HomePageTest@46cdf8bd]" started-at="2023-11-21T00:51:18 BDT" name="fillUpAccountInformationTest" description="Fill all account information" data-provider="account" finished-at="2023-11-21T00:51:20 BDT" duration-ms="2154" status="PASS">
+        <test-method signature="fillUpAccountInformationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:8, instance:ui.SignupTest@f8f56b9]" started-at="2023-11-21T02:06:30 BDT" name="fillUpAccountInformationTest" description="Fill all account information" data-provider="account" finished-at="2023-11-21T02:06:33 BDT" duration-ms="2538" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -262,25 +149,13 @@
             </param>
           </params>
           <reporter-output>
-            <line>
-              <![CDATA[onTestStart: Method name is - fillUpAccountInformationTest]]>
-            </line>
-            <line>
-              <![CDATA[onTestSuccess: Status of execution is - 1]]>
-            </line>
           </reporter-output>
         </test-method> <!-- fillUpAccountInformationTest -->
-        <test-method signature="verifyAccountCreatedTest()[pri:9, instance:ui.HomePageTest@46cdf8bd]" started-at="2023-11-21T00:51:20 BDT" name="verifyAccountCreatedTest" description="Verify &#039;ACCOUNT CREATED!&#039; and click &#039;Continue&#039; button" finished-at="2023-11-21T00:51:23 BDT" duration-ms="3196" status="PASS">
+        <test-method signature="verifyAccountCreatedTest()[pri:9, instance:ui.SignupTest@f8f56b9]" started-at="2023-11-21T02:06:33 BDT" name="verifyAccountCreatedTest" description="Verify &#039;ACCOUNT CREATED!&#039; and click &#039;Continue&#039; button" finished-at="2023-11-21T02:06:37 BDT" duration-ms="4218" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[onTestStart: Method name is - verifyAccountCreatedTest]]>
-            </line>
-            <line>
-              <![CDATA[onTestSuccess: Status of execution is - 1]]>
-            </line>
           </reporter-output>
         </test-method> <!-- verifyAccountCreatedTest -->
-        <test-method signature="verifyLoggedInUserTest(java.lang.String,java.lang.String,java.lang.String)[pri:10, instance:ui.HomePageTest@46cdf8bd]" started-at="2023-11-21T00:51:23 BDT" name="verifyLoggedInUserTest" description="Verify &#039; Logged in as username&#039; at top" data-provider="signup" finished-at="2023-11-21T00:51:23 BDT" duration-ms="34" status="PASS">
+        <test-method signature="verifyLoggedInUserTest(java.lang.String,java.lang.String,java.lang.String)[pri:10, instance:ui.SignupTest@f8f56b9]" started-at="2023-11-21T02:06:37 BDT" name="verifyLoggedInUserTest" description="Verify &#039; Logged in as username&#039; at top" data-provider="signup" finished-at="2023-11-21T02:06:37 BDT" duration-ms="28" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -294,50 +169,28 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[testuserd4f15_1700506283@gmail.com]]>
+                <![CDATA[testuser81e77_1700510797@gmail.com]]>
               </value>
             </param>
           </params>
           <reporter-output>
-            <line>
-              <![CDATA[onTestStart: Method name is - verifyLoggedInUserTest]]>
-            </line>
-            <line>
-              <![CDATA[onTestSuccess: Status of execution is - 1]]>
-            </line>
           </reporter-output>
         </test-method> <!-- verifyLoggedInUserTest -->
-        <test-method signature="clickCartAndProceedToCheckoutButtonTest()[pri:11, instance:ui.HomePageTest@46cdf8bd]" started-at="2023-11-21T00:51:23 BDT" name="clickCartAndProceedToCheckoutButtonTest" description="Click &#039;Cart&#039; button and &#039;Proceed To Checkout&#039; button" finished-at="2023-11-21T00:51:25 BDT" duration-ms="1912" status="PASS">
+        <test-method signature="clickCartAndProceedToCheckoutButtonTest()[pri:11, instance:ui.SignupTest@f8f56b9]" started-at="2023-11-21T02:06:37 BDT" name="clickCartAndProceedToCheckoutButtonTest" description="Click &#039;Cart&#039; button and &#039;Proceed To Checkout&#039; button" finished-at="2023-11-21T02:06:39 BDT" duration-ms="1829" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[onTestStart: Method name is - clickCartAndProceedToCheckoutButtonTest]]>
-            </line>
-            <line>
-              <![CDATA[onTestSuccess: Status of execution is - 1]]>
-            </line>
           </reporter-output>
         </test-method> <!-- clickCartAndProceedToCheckoutButtonTest -->
-        <test-method signature="verifyAddressReviewOrderTest()[pri:12, instance:ui.HomePageTest@46cdf8bd]" started-at="2023-11-21T00:51:25 BDT" name="verifyAddressReviewOrderTest" description="Verify Address Details and Review Your Order" finished-at="2023-11-21T00:51:25 BDT" duration-ms="1" status="PASS">
+      </class> <!-- ui.SignupTest -->
+      <class name="ui.CheckoutTest">
+        <test-method signature="verifyAddressReviewOrderTest()[pri:12, instance:ui.CheckoutTest@15fa55a6]" started-at="2023-11-21T02:06:39 BDT" name="verifyAddressReviewOrderTest" description="Verify Address Details and Review Your Order" finished-at="2023-11-21T02:06:39 BDT" duration-ms="0" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[onTestStart: Method name is - verifyAddressReviewOrderTest]]>
-            </line>
-            <line>
-              <![CDATA[onTestSuccess: Status of execution is - 1]]>
-            </line>
           </reporter-output>
         </test-method> <!-- verifyAddressReviewOrderTest -->
-        <test-method signature="placeOrderTest()[pri:13, instance:ui.HomePageTest@46cdf8bd]" started-at="2023-11-21T00:51:25 BDT" name="placeOrderTest" description=" Enter description in comment text area and click &#039;Place Order&#039;" finished-at="2023-11-21T00:51:26 BDT" duration-ms="750" status="PASS">
+        <test-method signature="placeOrderTest()[pri:13, instance:ui.CheckoutTest@15fa55a6]" started-at="2023-11-21T02:06:39 BDT" name="placeOrderTest" description=" Enter description in comment text area and click &#039;Place Order&#039;" finished-at="2023-11-21T02:06:41 BDT" duration-ms="2162" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[onTestStart: Method name is - placeOrderTest]]>
-            </line>
-            <line>
-              <![CDATA[onTestSuccess: Status of execution is - 1]]>
-            </line>
           </reporter-output>
         </test-method> <!-- placeOrderTest -->
-        <test-method signature="signUpTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:14, instance:ui.HomePageTest@46cdf8bd]" started-at="2023-11-21T00:51:26 BDT" name="signUpTest" description="Enter payment details: Name on Card, Card Number, CVC, Expiration date" data-provider="payment" finished-at="2023-11-21T00:51:28 BDT" duration-ms="2325" status="PASS">
+        <test-method signature="signUpTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:14, instance:ui.CheckoutTest@15fa55a6]" started-at="2023-11-21T02:06:41 BDT" name="signUpTest" description="Enter payment details: Name on Card, Card Number, CVC, Expiration date" data-provider="payment" finished-at="2023-11-21T02:06:43 BDT" duration-ms="2359" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -366,29 +219,19 @@
             </param>
           </params>
           <reporter-output>
-            <line>
-              <![CDATA[onTestStart: Method name is - signUpTest]]>
-            </line>
-            <line>
-              <![CDATA[onTestSuccess: Status of execution is - 1]]>
-            </line>
           </reporter-output>
         </test-method> <!-- signUpTest -->
-        <test-method signature="verifyOrderPlacedTest()[pri:15, instance:ui.HomePageTest@46cdf8bd]" started-at="2023-11-21T00:51:28 BDT" name="verifyOrderPlacedTest" description="Verify &#039;Verify the success message &#039;Your order has been placed successfully!&#039;" finished-at="2023-11-21T00:51:31 BDT" duration-ms="2771" status="PASS">
+        <test-method signature="verifyOrderPlacedTest()[pri:15, instance:ui.CheckoutTest@15fa55a6]" started-at="2023-11-21T02:06:43 BDT" name="verifyOrderPlacedTest" description="Verify &#039;Verify the success message &#039;Your order has been placed successfully!&#039;" finished-at="2023-11-21T02:06:47 BDT" duration-ms="4099" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[onTestStart: Method name is - verifyOrderPlacedTest]]>
-            </line>
-            <line>
-              <![CDATA[onTestSuccess: Status of execution is - 1]]>
-            </line>
           </reporter-output>
         </test-method> <!-- verifyOrderPlacedTest -->
-        <test-method is-config="true" signature="dataTeardown()[pri:0, instance:ui.HomePageTest@46cdf8bd]" started-at="2023-11-21T00:51:31 BDT" name="dataTeardown" finished-at="2023-11-21T00:51:31 BDT" duration-ms="146" status="PASS">
+      </class> <!-- ui.CheckoutTest -->
+      <class name="ui.HomePageTest">
+        <test-method signature="verifyHomepageTest()[pri:1, instance:ui.HomePageTest@a64e035]" started-at="2023-11-21T02:06:47 BDT" name="verifyHomepageTest" description="Verify that home page is visible successfully" finished-at="2023-11-21T02:06:47 BDT" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- dataTeardown -->
+        </test-method> <!-- verifyHomepageTest -->
       </class> <!-- ui.HomePageTest -->
-    </test> <!-- Functional Test -->
-  </suite> <!-- AutomationExcerciseSuite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
