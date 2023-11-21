@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AutomationExcerciseSuite]" guice-stage="DEVELOPMENT" verbose="10">
+  <listeners>
+    <listener class-name="common.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Functional Test(failed)" verbose="10">
+    <classes>
+      <class name="ui.CheckoutTest">
+        <methods>
+          <include name="signUpTest" invocation-numbers="0"/>
+          <include name="verifyOrderPlacedTest"/>
+          <include name="verifyAddressReviewOrderTest" invocation-numbers="0"/>
+          <include name="dataTeardown"/>
+          <include name="dataSetup"/>
+          <include name="placeOrderTest"/>
+        </methods>
+      </class> <!-- ui.CheckoutTest -->
+      <class name="ui.SignupTest">
+        <methods>
+          <include name="fillUpAccountInformationTest" invocation-numbers="0"/>
+          <include name="verifyLoggedInUserTest" invocation-numbers="0"/>
+          <include name="clickRegisterLoginButtonTest"/>
+          <include name="dataTeardown"/>
+          <include name="signUpTest" invocation-numbers="0"/>
+          <include name="verifyAccountCreatedTest"/>
+          <include name="dataSetup"/>
+          <include name="clickCartAndProceedToCheckoutButtonTest"/>
+        </methods>
+      </class> <!-- ui.SignupTest -->
+      <class name="ui.HomePageTest">
+        <methods>
+          <include name="dataTeardown"/>
+        </methods>
+      </class> <!-- ui.HomePageTest -->
+      <class name="ui.AddToCartTest">
+        <methods>
+          <include name="addProductsToCartTest"/>
+          <include name="dataTeardown"/>
+          <include name="dataSetup"/>
+          <include name="clickCartButtonTest"/>
+          <include name="verifyCartPageTest"/>
+          <include name="clickProceedToCheckoutTest"/>
+        </methods>
+      </class> <!-- ui.AddToCartTest -->
+    </classes>
+  </test> <!-- Functional Test(failed) -->
+</suite> <!-- Failed suite [AutomationExcerciseSuite] -->

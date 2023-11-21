@@ -92,7 +92,7 @@
       <![CDATA[onTestSuccess: Status of execution is - 1]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-11-21T02:31:34 BDT" name="AutomationExcerciseSuite" finished-at="2023-11-21T02:31:51 BDT" duration-ms="16692">
+  <suite started-at="2023-11-22T05:16:33 BDT" name="AutomationExcerciseSuite" finished-at="2023-11-22T05:16:51 BDT" duration-ms="18541">
     <groups>
       <group name="regression">
         <method signature="HomePageTest.verifyHomepageTest()[pri:1, instance:ui.HomePageTest@24097e9b]" name="verifyHomepageTest" class="ui.HomePageTest"/>
@@ -106,15 +106,15 @@
         <method signature="SignupTest.verifyAccountCreatedTest()[pri:9, instance:ui.SignupTest@151335cb]" name="verifyAccountCreatedTest" class="ui.SignupTest"/>
         <method signature="SignupTest.verifyLoggedInUserTest(java.lang.String,java.lang.String,java.lang.String)[pri:10, instance:ui.SignupTest@151335cb]" name="verifyLoggedInUserTest" class="ui.SignupTest"/>
         <method signature="SignupTest.clickCartAndProceedToCheckoutButtonTest()[pri:11, instance:ui.SignupTest@151335cb]" name="clickCartAndProceedToCheckoutButtonTest" class="ui.SignupTest"/>
-        <method signature="CheckoutTest.verifyAddressReviewOrderTest()[pri:12, instance:ui.CheckoutTest@4a7761b1]" name="verifyAddressReviewOrderTest" class="ui.CheckoutTest"/>
+        <method signature="CheckoutTest.verifyAddressReviewOrderTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:12, instance:ui.CheckoutTest@4a7761b1]" name="verifyAddressReviewOrderTest" class="ui.CheckoutTest"/>
         <method signature="CheckoutTest.placeOrderTest()[pri:13, instance:ui.CheckoutTest@4a7761b1]" name="placeOrderTest" class="ui.CheckoutTest"/>
         <method signature="CheckoutTest.signUpTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:14, instance:ui.CheckoutTest@4a7761b1]" name="signUpTest" class="ui.CheckoutTest"/>
         <method signature="CheckoutTest.verifyOrderPlacedTest()[pri:15, instance:ui.CheckoutTest@4a7761b1]" name="verifyOrderPlacedTest" class="ui.CheckoutTest"/>
       </group> <!-- regression -->
     </groups>
-    <test started-at="2023-11-21T02:31:34 BDT" name="Functional Test" finished-at="2023-11-21T02:31:51 BDT" duration-ms="16692">
+    <test started-at="2023-11-22T05:16:33 BDT" name="Functional Test" finished-at="2023-11-22T05:16:51 BDT" duration-ms="18541">
       <class name="ui.AddToCartTest">
-        <test-method signature="addProductsToCartTest()[pri:2, instance:ui.AddToCartTest@765df79d]" started-at="2023-11-21T02:31:34 BDT" name="addProductsToCartTest" description="Add products to cart" finished-at="2023-11-21T02:31:35 BDT" duration-ms="724" status="PASS">
+        <test-method signature="addProductsToCartTest()[pri:2, instance:ui.AddToCartTest@765df79d]" started-at="2023-11-22T05:16:33 BDT" name="addProductsToCartTest" description="Add products to cart" finished-at="2023-11-22T05:16:34 BDT" duration-ms="1342" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[onTestStart: Method name is - addProductsToCartTest]]>
@@ -124,7 +124,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- addProductsToCartTest -->
-        <test-method signature="clickCartButtonTest()[pri:3, instance:ui.AddToCartTest@765df79d]" started-at="2023-11-21T02:31:35 BDT" name="clickCartButtonTest" description="Click &#039;Cart&#039; button" finished-at="2023-11-21T02:31:36 BDT" duration-ms="945" status="PASS">
+        <test-method signature="clickCartButtonTest()[pri:3, instance:ui.AddToCartTest@765df79d]" started-at="2023-11-22T05:16:34 BDT" name="clickCartButtonTest" description="Click &#039;Cart&#039; button" finished-at="2023-11-22T05:16:35 BDT" duration-ms="1216" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[onTestStart: Method name is - clickCartButtonTest]]>
@@ -134,7 +134,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- clickCartButtonTest -->
-        <test-method signature="verifyCartPageTest()[pri:4, instance:ui.AddToCartTest@765df79d]" started-at="2023-11-21T02:31:36 BDT" name="verifyCartPageTest" description="Verify that cart page is displayed" finished-at="2023-11-21T02:31:36 BDT" duration-ms="6" status="PASS">
+        <test-method signature="verifyCartPageTest()[pri:4, instance:ui.AddToCartTest@765df79d]" started-at="2023-11-22T05:16:35 BDT" name="verifyCartPageTest" description="Verify that cart page is displayed" finished-at="2023-11-22T05:16:35 BDT" duration-ms="10" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[onTestStart: Method name is - verifyCartPageTest]]>
@@ -144,7 +144,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyCartPageTest -->
-        <test-method signature="clickProceedToCheckoutTest()[pri:5, instance:ui.AddToCartTest@765df79d]" started-at="2023-11-21T02:31:36 BDT" name="clickProceedToCheckoutTest" description="Click Proceed To Checkout" finished-at="2023-11-21T02:31:36 BDT" duration-ms="43" status="PASS">
+        <test-method signature="clickProceedToCheckoutTest()[pri:5, instance:ui.AddToCartTest@765df79d]" started-at="2023-11-22T05:16:35 BDT" name="clickProceedToCheckoutTest" description="Click Proceed To Checkout" finished-at="2023-11-22T05:16:35 BDT" duration-ms="43" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[onTestStart: Method name is - clickProceedToCheckoutTest]]>
@@ -156,7 +156,7 @@
         </test-method> <!-- clickProceedToCheckoutTest -->
       </class> <!-- ui.AddToCartTest -->
       <class name="ui.SignupTest">
-        <test-method signature="clickRegisterLoginButtonTest()[pri:6, instance:ui.SignupTest@151335cb]" started-at="2023-11-21T02:31:36 BDT" name="clickRegisterLoginButtonTest" description="Click &#039;Register / Login&#039; button" finished-at="2023-11-21T02:31:36 BDT" duration-ms="665" status="PASS">
+        <test-method signature="clickRegisterLoginButtonTest()[pri:6, instance:ui.SignupTest@151335cb]" started-at="2023-11-22T05:16:35 BDT" name="clickRegisterLoginButtonTest" description="Click &#039;Register / Login&#039; button" finished-at="2023-11-22T05:16:36 BDT" duration-ms="677" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[onTestStart: Method name is - clickRegisterLoginButtonTest]]>
@@ -166,7 +166,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- clickRegisterLoginButtonTest -->
-        <test-method signature="signUpTest(java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:ui.SignupTest@151335cb]" started-at="2023-11-21T02:31:36 BDT" name="signUpTest" description="Fill all details in Sign up and create account" data-provider="signup" finished-at="2023-11-21T02:31:37 BDT" duration-ms="861" status="PASS">
+        <test-method signature="signUpTest(java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:ui.SignupTest@151335cb]" started-at="2023-11-22T05:16:36 BDT" name="signUpTest" description="Fill all details in Sign up and create account" data-provider="signup" finished-at="2023-11-22T05:16:37 BDT" duration-ms="978" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -180,7 +180,7 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[testuserdbcdc_1700512296@gmail.com]]>
+                <![CDATA[testuser9c897_1700608596@gmail.com]]>
               </value>
             </param>
           </params>
@@ -193,7 +193,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- signUpTest -->
-        <test-method signature="fillUpAccountInformationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:8, instance:ui.SignupTest@151335cb]" started-at="2023-11-21T02:31:37 BDT" name="fillUpAccountInformationTest" description="Fill all account information" data-provider="account" finished-at="2023-11-21T02:31:39 BDT" duration-ms="2181" status="PASS">
+        <test-method signature="fillUpAccountInformationTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:8, instance:ui.SignupTest@151335cb]" started-at="2023-11-22T05:16:37 BDT" name="fillUpAccountInformationTest" description="Fill all account information" data-provider="account" finished-at="2023-11-22T05:16:39 BDT" duration-ms="2123" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -275,7 +275,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- fillUpAccountInformationTest -->
-        <test-method signature="verifyAccountCreatedTest()[pri:9, instance:ui.SignupTest@151335cb]" started-at="2023-11-21T02:31:39 BDT" name="verifyAccountCreatedTest" description="Verify &#039;ACCOUNT CREATED!&#039; and click &#039;Continue&#039; button" finished-at="2023-11-21T02:31:43 BDT" duration-ms="3171" status="PASS">
+        <test-method signature="verifyAccountCreatedTest()[pri:9, instance:ui.SignupTest@151335cb]" started-at="2023-11-22T05:16:39 BDT" name="verifyAccountCreatedTest" description="Verify &#039;ACCOUNT CREATED!&#039; and click &#039;Continue&#039; button" finished-at="2023-11-22T05:16:42 BDT" duration-ms="2987" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[onTestStart: Method name is - verifyAccountCreatedTest]]>
@@ -285,7 +285,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyAccountCreatedTest -->
-        <test-method signature="verifyLoggedInUserTest(java.lang.String,java.lang.String,java.lang.String)[pri:10, instance:ui.SignupTest@151335cb]" started-at="2023-11-21T02:31:43 BDT" name="verifyLoggedInUserTest" description="Verify &#039; Logged in as username&#039; at top" data-provider="signup" finished-at="2023-11-21T02:31:43 BDT" duration-ms="22" status="PASS">
+        <test-method signature="verifyLoggedInUserTest(java.lang.String,java.lang.String,java.lang.String)[pri:10, instance:ui.SignupTest@151335cb]" started-at="2023-11-22T05:16:42 BDT" name="verifyLoggedInUserTest" description="Verify &#039; Logged in as username&#039; at top" data-provider="signup" finished-at="2023-11-22T05:16:42 BDT" duration-ms="29" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -299,7 +299,7 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[testuser4aaf4_1700512303@gmail.com]]>
+                <![CDATA[testuser84e1a_1700608602@gmail.com]]>
               </value>
             </param>
           </params>
@@ -312,7 +312,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyLoggedInUserTest -->
-        <test-method signature="clickCartAndProceedToCheckoutButtonTest()[pri:11, instance:ui.SignupTest@151335cb]" started-at="2023-11-21T02:31:43 BDT" name="clickCartAndProceedToCheckoutButtonTest" description="Click &#039;Cart&#039; button and &#039;Proceed To Checkout&#039; button" finished-at="2023-11-21T02:31:45 BDT" duration-ms="1993" status="PASS">
+        <test-method signature="clickCartAndProceedToCheckoutButtonTest()[pri:11, instance:ui.SignupTest@151335cb]" started-at="2023-11-22T05:16:42 BDT" name="clickCartAndProceedToCheckoutButtonTest" description="Click &#039;Cart&#039; button and &#039;Proceed To Checkout&#039; button" finished-at="2023-11-22T05:16:44 BDT" duration-ms="1960" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[onTestStart: Method name is - clickCartAndProceedToCheckoutButtonTest]]>
@@ -324,7 +324,79 @@
         </test-method> <!-- clickCartAndProceedToCheckoutButtonTest -->
       </class> <!-- ui.SignupTest -->
       <class name="ui.CheckoutTest">
-        <test-method signature="verifyAddressReviewOrderTest()[pri:12, instance:ui.CheckoutTest@4a7761b1]" started-at="2023-11-21T02:31:45 BDT" name="verifyAddressReviewOrderTest" description="Verify Address Details and Review Your Order" finished-at="2023-11-21T02:31:45 BDT" duration-ms="0" status="PASS">
+        <test-method signature="verifyAddressReviewOrderTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:12, instance:ui.CheckoutTest@4a7761b1]" started-at="2023-11-22T05:16:44 BDT" name="verifyAddressReviewOrderTest" description="Verify Address Details and Review Your Order" data-provider="account" finished-at="2023-11-22T05:16:44 BDT" duration-ms="119" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcd1234]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1990]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[User]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Google]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Toronto]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Road 11]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Canada]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Toronto]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[New City]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[1200]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[02135489]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
             <line>
               <![CDATA[onTestStart: Method name is - verifyAddressReviewOrderTest]]>
@@ -334,7 +406,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyAddressReviewOrderTest -->
-        <test-method signature="placeOrderTest()[pri:13, instance:ui.CheckoutTest@4a7761b1]" started-at="2023-11-21T02:31:45 BDT" name="placeOrderTest" description=" Enter description in comment text area and click &#039;Place Order&#039;" finished-at="2023-11-21T02:31:45 BDT" duration-ms="738" status="PASS">
+        <test-method signature="placeOrderTest()[pri:13, instance:ui.CheckoutTest@4a7761b1]" started-at="2023-11-22T05:16:44 BDT" name="placeOrderTest" description=" Enter description in comment text area and click &#039;Place Order&#039;" finished-at="2023-11-22T05:16:45 BDT" duration-ms="865" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[onTestStart: Method name is - placeOrderTest]]>
@@ -344,7 +416,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- placeOrderTest -->
-        <test-method signature="signUpTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:14, instance:ui.CheckoutTest@4a7761b1]" started-at="2023-11-21T02:31:45 BDT" name="signUpTest" description="Enter payment details: Name on Card, Card Number, CVC, Expiration date" data-provider="payment" finished-at="2023-11-21T02:31:48 BDT" duration-ms="2328" status="PASS">
+        <test-method signature="signUpTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:14, instance:ui.CheckoutTest@4a7761b1]" started-at="2023-11-22T05:16:45 BDT" name="signUpTest" description="Enter payment details: Name on Card, Card Number, CVC, Expiration date" data-provider="payment" finished-at="2023-11-22T05:16:48 BDT" duration-ms="2566" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -381,7 +453,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- signUpTest -->
-        <test-method signature="verifyOrderPlacedTest()[pri:15, instance:ui.CheckoutTest@4a7761b1]" started-at="2023-11-21T02:31:48 BDT" name="verifyOrderPlacedTest" description="Verify &#039;Verify the success message &#039;Your order has been placed successfully!&#039;" finished-at="2023-11-21T02:31:51 BDT" duration-ms="2922" status="PASS">
+        <test-method signature="verifyOrderPlacedTest()[pri:15, instance:ui.CheckoutTest@4a7761b1]" started-at="2023-11-22T05:16:48 BDT" name="verifyOrderPlacedTest" description="Verify &#039;Verify the success message &#039;Your order has been placed successfully!&#039;" finished-at="2023-11-22T05:16:51 BDT" duration-ms="3528" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[onTestStart: Method name is - verifyOrderPlacedTest]]>
@@ -393,11 +465,11 @@
         </test-method> <!-- verifyOrderPlacedTest -->
       </class> <!-- ui.CheckoutTest -->
       <class name="ui.HomePageTest">
-        <test-method is-config="true" signature="dataSetup()[pri:0, instance:ui.HomePageTest@24097e9b]" started-at="2023-11-21T02:31:34 BDT" name="dataSetup" finished-at="2023-11-21T02:31:34 BDT" duration-ms="10" status="PASS">
+        <test-method is-config="true" signature="dataSetup()[pri:0, instance:ui.HomePageTest@24097e9b]" started-at="2023-11-22T05:16:33 BDT" name="dataSetup" finished-at="2023-11-22T05:16:33 BDT" duration-ms="16" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dataSetup -->
-        <test-method signature="verifyHomepageTest()[pri:1, instance:ui.HomePageTest@24097e9b]" started-at="2023-11-21T02:31:34 BDT" name="verifyHomepageTest" description="Verify that home page is visible successfully" finished-at="2023-11-21T02:31:34 BDT" duration-ms="16" status="PASS">
+        <test-method signature="verifyHomepageTest()[pri:1, instance:ui.HomePageTest@24097e9b]" started-at="2023-11-22T05:16:33 BDT" name="verifyHomepageTest" description="Verify that home page is visible successfully" finished-at="2023-11-22T05:16:33 BDT" duration-ms="23" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[onTestStart: Method name is - verifyHomepageTest]]>
@@ -407,7 +479,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyHomepageTest -->
-        <test-method is-config="true" signature="dataTeardown()[pri:0, instance:ui.HomePageTest@24097e9b]" started-at="2023-11-21T02:31:51 BDT" name="dataTeardown" finished-at="2023-11-21T02:31:51 BDT" duration-ms="164" status="PASS">
+        <test-method is-config="true" signature="dataTeardown()[pri:0, instance:ui.HomePageTest@24097e9b]" started-at="2023-11-22T05:16:51 BDT" name="dataTeardown" finished-at="2023-11-22T05:16:51 BDT" duration-ms="183" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dataTeardown -->

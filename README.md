@@ -1,6 +1,6 @@
-# Selenium Maven Project
+# Selenium Automation Exercise
 
-This is a Java Selenium project managed with Maven for automated testing of web applications.
+This is a Java Selenium project managed with Maven for automated testing of site `https://automationexercise.com`
 
 ## Prerequisites
 
@@ -18,7 +18,7 @@ This is a Java Selenium project managed with Maven for automated testing of web 
 2. Navigate to the project directory:
 
    ```bash
-   cd selenium-maven-project
+   cd kinetik-automation-assessment
    
 3. Download the necessary dependencies using Maven:
 
@@ -26,20 +26,9 @@ This is a Java Selenium project managed with Maven for automated testing of web 
    mvn clean install
 
 
-## Configuration   
-
-1. Update the WebDriver executable path in the src/test/resources/config.properties file:
-
-   ```bash
-   webdriver.chrome.driver=/path/to/chromedriver
-   
-2. Modify other configurations in the src/test/resources/config.properties file as needed.
-
 ## Running Tests
 
-Execute the following Maven command to run the tests:
-```bash
-   mvn test
+Execute the test suit `testng.xml` to run the tests:
 
 
 ## Test Reports
