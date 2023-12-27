@@ -13,12 +13,12 @@ This is a Java Selenium project managed with Maven for automated testing of site
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/AzizaAntora/kinetik-automation-assessment.git
+   git clone https://github.com/AzizaAntora/demo-automation-project.git
 
 2. Navigate to the project directory:
 
    ```bash
-   cd kinetik-automation-assessment
+   cd demo-automation-project
    
 3. Download the necessary dependencies using Maven:
 
